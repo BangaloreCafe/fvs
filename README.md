@@ -2,6 +2,12 @@ Minimum Feedback Vertex Set
 ===
 `Genetic Algorithm`
 
+The minimum feedback vertex set in a directed graph is NP-hard problem i.e. it is very unlikely that a
+polynomial algorithm can be found to solve any instance of it. It has several real-life use case, hence
+it is important to study it and to create more efficient soultions for special use cases. Also, find
+some near optimal solutions to general class. Here we present a genetic algorithm which breaks down problem
+into individual genetic solution for a set of a graph ( Strongly Connected Components )
+
 
 Finding the minimum feedback vertex Set of a directed graph
 -------------------------------------------------------
