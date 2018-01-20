@@ -7,6 +7,7 @@ Usage
 Load graph.ml, it has a buil in input either change it in the file or use following format of 
 giving input.
 
+```Ocaml
 (*create graph*)
 let g2 = create();;
 
@@ -31,4 +32,4 @@ vset_ids (strong_component v3);;
 
 (*call function fvs <graph>*)
 fvs g2
-	
+```
