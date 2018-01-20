@@ -1,0 +1,9 @@
+*.pyc
+# don't include third-party dependencies.
+!lib/README.md
+.DS_Store
+lib/
+data/
+.idea/
+ideas/
+.ipynb_checkpoints
